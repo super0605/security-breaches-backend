@@ -1,0 +1,32 @@
+{
+  "name": "security-breaches-api",
+  "version": "1.0.0",
+  "description": "Backend Services",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Don",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.5.14",
+    "aws-sdk": "^2.867.0",
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "dynamoose": "^2.7.3",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.0",
+    "joi": "^17.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwk-to-pem": "^2.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}
