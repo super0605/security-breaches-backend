@@ -1,7 +1,6 @@
 'use strict'
 
 const axios = require('axios');
-const createError = require('http-errors');
 
 const { apiBaseUrl, apiKey } = require('../config/apiConfig');
 
